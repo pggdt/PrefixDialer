@@ -1,0 +1,10 @@
+按照github的指导，在执行git push origin master命令前都正常，执行到此命令后出现错误：
+    
+    To https://github.com/pggdt/PrefixDialer.git
+     ! [rejected]        master -> master (non-fast-forward)
+    error: failed to push some refs to 'https://github.com/pggdt/PrefixDialer.git'
+    To prevent you from losing history, non-fast-forward updates were rejected
+    Merge the remote changes (e.g. 'git pull') before pushing again.  See the
+    'Note about fast-forwards' section of 'git push --help' for details.
+
+之后执行git push -f将本地的README文件和一条评论提交到了github但是本地修改README后再次使用git push origin master显示提交成功远端无却并没成功。
