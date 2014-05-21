@@ -8,5 +8,3 @@
     'Note about fast-forwards' section of 'git push --help' for details.
 
 之后执行git push -f将本地的README文件和一条评论提交到了github但是本地修改README后再次使用git push origin master显示提交成功远端无却并没成功。
-
-之后尝试SSH链接，可以pull，但是push仍然提示成功其实没成功。

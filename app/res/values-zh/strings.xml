@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IP拨号</string>
+    <string name="action_about">关于</string>
+    <string name="action_exit">退出</string>
+    <string name="title_main_activity">IP拨号</string>
+    <string name="title_activity_contacts">通讯录</string>
+    <string name="button_dial">拨号</string>
+    <string name="button_contects">通讯录</string>
+    <string name="label_incoming">来电</string>
+    <string name="label_outgoing">去电</string>
+    <string name="label_missed">未接</string>
+    <string name="toast_calling">呼叫： </string>    
+    <string name="html_url">file:///android_asset/about-zh.html</string>
+</resources>
