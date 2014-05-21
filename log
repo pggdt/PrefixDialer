@@ -10,3 +10,5 @@
 之后执行git push -f将本地的README文件和一条评论提交到了github但是本地修改README后再次使用git push origin master显示提交成功远端无却并没成功。
 
 之后尝试SSH链接，可以pull，但是push仍然提示成功其实没成功。
+
+push之所以没成功是因为没有commit。即本地修改文件后要git commit -m "确认信息"再git push origin master就可以了
